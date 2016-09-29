@@ -9,6 +9,23 @@ body {
   vertical-align: middle;
 }
 
+ img {
+   transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+   overflow: hidden;
+}
+
+img:hover {
+   transition: all 2s;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
 
 .navbar-brand{height:60px;}
 
